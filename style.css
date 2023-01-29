@@ -1,0 +1,73 @@
+body{
+    margin:0;
+
+}
+.none{
+   /* height: 200px; */
+  /* background-image: url(https://thumbs.dreamstime.com/b/online-shopping-payment-man-using-tablet-cart-icon-digital-marketing-banking-finance-dark-blue-background-172987675.jpg);*/
+   
+}
+.none:hover{
+    background-color: black;
+    transition: all 1s;
+}
+nav{
+    
+}
+.container-flex{
+    display:flex;
+    background-image: url(https://thumbs.dreamstime.com/b/little-girl-pointing-something-family-shopping-parents-daughter-copy-space-holding-shopper-bags-yellow-studio-156232563.jpg);
+}
+.flex-item1{
+    flex:20%;
+   
+    color:whitesmoke;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+.flex-item2{
+    flex:80%;
+    color:rgb(212, 248, 127);
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    
+  
+
+}
+a{
+    text-decoration: none;
+    color:tomato;
+    margin-left: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    transition: all 3s;
+    text-align: center;
+}
+a:hover{
+    background-color: rgb(214, 227, 39);
+    color: black;
+    transition: 1s;
+}
+ul{
+    text-align: justify;
+}
+li{
+    display: inline;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(148, 106, 144);
+    
+
+}
+.mill{
+    font-size: 70px;
+}
